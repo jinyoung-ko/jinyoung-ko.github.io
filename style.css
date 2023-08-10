@@ -40,14 +40,13 @@
   }
 
   .content-info {
-    display: block;
+    flex-wrap: wrap;
     padding: 0rem 2rem;
   }
 
   .content-bin {
     display: flex;
     padding: 3rem calc((100vw - 1000px) / 2);
-    height: 95vh;
   }
   
   .content-container {
