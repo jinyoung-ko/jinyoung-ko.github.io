@@ -36,6 +36,7 @@
   footer {
     text-align: center;
     padding: 1rem;
+    overflow:hidden;
   }
 
   .content-info {
@@ -45,9 +46,8 @@
 
   .content-bin {
     display: flex;
-    height: 95vh;
     padding: 3rem calc((100vw - 1000px) / 2);
-
+    padding: 2rem;
   }
   
   .content-container {
@@ -104,7 +104,7 @@
     height: 100%;
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 412px) {
     .content-container {
       grid-template-columns: 1fr;
     }
