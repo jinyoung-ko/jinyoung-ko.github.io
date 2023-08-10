@@ -37,7 +37,6 @@
     text-align: center;
     padding: 1rem;
     margin-top: auto;
-    background-color: rgb(187, 187, 187);
   }
 
   .content-info {
@@ -48,7 +47,6 @@
   .content-bin {
     display: flex;
     padding: 3rem calc((100vw - 1300px) / 2);
-    background-color: rgb(217, 217, 217);
   }
   
   .content-container {
